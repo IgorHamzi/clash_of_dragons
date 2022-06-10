@@ -1,4 +1,4 @@
-import Monster from '../Fighter/Monster';
+import Monster from './Monster';
 
 export default class Dragon extends Monster {
   protected _lifePoints: number;
