@@ -1,7 +1,7 @@
 import Fighter from '../Fighter';
 import Battle from './Battle';
 
-class PVP extends Battle {
+export default class PVP extends Battle {
   private _firstPlayer: Fighter;
   private _secondPlayer: Fighter;
 
@@ -17,5 +17,3 @@ class PVP extends Battle {
     return super.fight();
   }
 }
-
-export default PVP;
